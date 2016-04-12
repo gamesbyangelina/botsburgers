@@ -228,10 +228,9 @@ def generate():
     return
 
     api = twitter.Api(
-    consumer_key='KPWQ0szhb0JYQht1J9dn8ahZ1',
-    consumer_secret='3SVO0I2Ji7LlZrvqhHuMxxYvlwnCej5VbFmouXzxbg4DlJYcGR',
-    access_token_key='719663414767960064-xtffbRMnDDq0iySsDsxK78TDbBNo4dy',
-    access_token_secret='9IQyu8q7T016Y3Qkhn1PEQ4hBVLE6gH4MNhdIiSbomff2');
+    # stuff goes here
+    # thanks to @v21 there is no longer my twitter api keys here...
+    );
 
     api.PostMedia("","out.png")
 
